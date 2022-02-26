@@ -38,7 +38,8 @@ def _multiplication_table(input_int, sleep=0):
 	print(f'-----{input_int}단-----')
 	
 	for i in range(1, 10):      # 1 ~ 9
-		print(input_int, 'X', i, '=', input_int * i)
+		# print(input_int, 'X', i, '=', input_int * i)
+		print(f'{input_int} X {i} = {input_int*i}')
 		time.sleep(sleep)
 
 
@@ -47,14 +48,14 @@ def _quiz():
 	start = int(time.time())
 	correct = 0
 	for i in range(10):     # 아래 로직을 10번 반복
-		x = random.randint(2, 9)
+		x = random.randint(2, 9)		# 2~9 사이의 정수를 랜덤으로 return
 		y = random.randint(2, 9)
 		# int 처리를 하지 않으면 input으로 받은 값이 string으로 들어오기 때문에 int() 호출
 		answer = int(input(f'[문제 {i + 1}] {x} X {y} = ?'))
 
 		if x * y == answer:
 			print('정답입니다!')
-			correct = correct + 1
+			correct += 1
 		else:
 			print('틀렸습니다..')
 			print(f'[정답] {x * y}')
