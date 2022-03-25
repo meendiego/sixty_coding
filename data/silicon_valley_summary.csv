@@ -1,0 +1,12 @@
+job_category,race_ethnicity,gender,count,percentage
+Managers,White,Male,48311,46.47925265
+Managers,White,Female,18935,18.21706545
+Managers,Black_or_African American,Male,1575,1.515282708
+Managers,Black_or_African American,Female,978,0.940918406
+Managers,Asian,Male,18563,17.85917011
+Managers,Asian,Female,8084,7.777489152
+Managers,Hispanic_or_Latino,Male,3741,3.599157214
+Managers,Hispanic_or_Latino,Female,1642,1.579742354
+Managers,All,Male,73526,70.73820725
+Managers,All,Female,30415,29.26179275
+Managers,Totals,Both,103941,100
